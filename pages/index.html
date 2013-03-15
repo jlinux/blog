@@ -1,25 +1,53 @@
 ---
-title: 首页
+title: Just for fun
 description:
 ---
-
-<h2>Gor已经为了编译成功了</h2>
+<!--
+<h3>Gor已经为了编译成功了</h3>
 <p>
   这段文字位于pages/index.html ,使用以下命令获取帮助或访问gor官网
 </p>
 <pre><code>$ gor help</code></pre>
+-->
 
-
-<h2>最近更新</h2>
+<h3>最近更新</h3>
 
 {{# posts_latest }}
 <div class="post">
-  <h3 class="title"><a href="{{url}}">{{title}}</a> <span class="date">{{ date }}</span></h3>
-
-  {{{ summary }}}
-
+  <h4 class="title"><a href="{{url}}">{{title}}</a> <span class="date">{{ date }}</span></h4>
   <div class="more">
-    <a href="{{url}}" class="btn">read more..</a>
+    <a href="{{url}}" class="btn">查看更多</a>
   </div>
 </div>
 {{/ posts_latest }}
+<br/>
+
+<div>
+<h3>友情链接（网站部署在Pi上的好友）</h3>
+<ul>
+<li><a href="http://kongwu.net/" target="_blank">Kongwu on Pi － Nothing here but Respberry Pi</a></li>
+<li><a href="http://go.myalert.info/" target="_blank">When Go meets Raspberry Pi</a></li>
+<li><a href="http://pi.k17.im" target="_blank">异翅</a></li>
+<li><a href="http://jacksontian.eicp.net" target="_blank">朴灵</a></li>
+</ul>
+            
+</div>
+<h3>系统监控</h3>
+<img src="https://api.cosm.com/v2/feeds/101888/datastreams/laod.png?width=400&height=200&colour=%23f15a24&duration=3hours&title=树莓派Load&temp=true&detailed_grid=true&timezone=Beijing" border="0"/><img src="https://api.cosm.com/v2/feeds/101888/datastreams/temp.png?width=400&height=200&colour=%23f15a24&duration=3hours&title=树莓派温度&temp=true&detailed_grid=true&timezone=Beijing" border="0"/>
+<br/>
+<h3>多说留言</h3>
+<!-- Duoshuo Comment BEGIN -->
+<div class="ds-thread" data-thread-id="1230000568248827905"></div>
+<script type="text/javascript">
+    var duoshuoQuery = {short_name:"jlinux"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = 'http://static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+
+        (document.getElementsByTagName('head')[0]
+                || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- Duoshuo Comment END -->

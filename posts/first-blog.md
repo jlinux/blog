@@ -1,7 +1,7 @@
 ---
 date: 2012-12-22
 layout: post
-title: 你的第一篇博客
+title: Gor帮我生成的第一篇博客
 permalink: '/2012/new-born.html'
 categories:
 - Gor
@@ -9,12 +9,9 @@ categories:
 tags:
 - Gor
 ---
+没有删除这篇博客的原因是感谢Gor
 
-感谢你使用Gor编写博客
-===================
-
-本文位于 posts/first-blog.md , 你可以任何删掉,修改这个文件
-----------------------------------
+## 感谢你使用Gor编写博客
 
 文件开头是当前文章的元数据
 
