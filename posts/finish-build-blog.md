@@ -5,7 +5,7 @@ description: 从rubyonrails移植到静态Blog引擎Gor
 categories:
 ---
 
-###选择错误
+### 选择错误
 
 之前在树莓派上搭建站点时，因为觉得rubyonrails搭建比较迅速，于是就选择了rubyonrails。
 
@@ -13,7 +13,7 @@ categories:
 
 这个并不是rubyonrails的错误，是我选择的错误。
 
-###重新选择
+### 重新选择
 
 决定更换网站底层时，就开始选型，最后发现[hugozhu](http://hugozhu.myalert.info/)网站采用的Gor，其效果非常好。调查以后，决定按照他的方案来搭建整个网站。
 
@@ -24,7 +24,7 @@ PS。gor 是使用golang实现的类Ruhoh静态博客引擎(Ruhoh like),基本�
 只不过对于我来说，我需要重新了解一门新的语言。
 
 
-###写Blog的好习惯
+### 写Blog的好习惯
 
 在这件事情上，充分证明了写Blog记录技术历程的好处，可以给自己一个记录，可以给别人一个帮助。
 
