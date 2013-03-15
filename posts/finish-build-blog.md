@@ -1,5 +1,5 @@
 ---
-title: 完成静态BLog的搭建
+title: 完成静态Blog的搭建
 date: '2013-03-15'
 description: 从rubyonrails移植到静态Blog引擎Gor
 categories:
