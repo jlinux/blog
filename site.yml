@@ -1,0 +1,16 @@
+title : 伏威的树莓派空间
+tagline: 伏威 raspberry pi 开源 创客
+author :
+  name : Yong Tang
+  email : jlinux@gmail.com
+  github : jlinux
+  twitter : jlinux
+  feedburner : feedname
+
+navigation :
+  - archive.html
+  - tags.html
+  - categories.html
+  - pages.html
+  - about.md
+  
