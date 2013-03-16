@@ -2,7 +2,10 @@
 title: 完成静态Blog的搭建
 date: '2013-03-15'
 description: 从rubyonrails移植到静态Blog引擎Gor
-categories:2013
+categories:
+- 2013
+- blog
+tags:raspberry pi
 ---
 
 ### 选择错误

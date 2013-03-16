@@ -2,7 +2,11 @@
 title: 智能家庭（需求）
 date: '2013-03-16'
 description:
-categories:2013
+categories:
+- 2013
+- blog
+- plan
+tags:raspberry pi 智能
 ---
 
 准备开始完成自己的智能家庭计划（自我定义，请勿吹毛求疵）！
