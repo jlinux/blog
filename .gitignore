@@ -2,3 +2,5 @@ compiled
 .tmp_partials
 
 .DS_Store
+
+posts/.DS_Store
