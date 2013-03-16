@@ -6,7 +6,7 @@ categories:
 ---
 
 
-raspberry pi相关
+raspberry pi相关	
 
 *	[raspberry pi兼容硬件列表](http://elinux.org/RPi_VerifiedPeripherals)
 *	
