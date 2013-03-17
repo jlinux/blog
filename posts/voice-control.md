@@ -20,20 +20,14 @@ tags:
 *	扩展性，通过标准的USB接口，我很容易选择PC的扩展方案，廉价，易开发
 *	自己更了解PC下的开发
 
-如果没有这些考虑，有更轻松的解决方案[^1]
-
-[^1]:DFRobot Arduino Smart Home kit智能家居语音识别初级套件http://wiki.dfrobot.com.cn/index.php?title=Smart_Home_kit_for_Arduino(SKU:KIT0005)
+如果没有这些考虑，有更轻松的解决方案: DFRobot Arduino Smart Home kit智能家居语音识别初级套件http://wiki.dfrobot.com.cn/index.php?title=Smart_Home_kit_for_Arduino(SKU:KIT0005)
 
 
 
 ###	前期技术调研
-最开始是选择Julius4[^2]作为参考，最后没有成熟的中文文档可以参考，只好放弃
+最开始是选择Julius4作为参考，最后没有成熟的中文文档可以参考，只好放弃。Julius4是日本人开发的一个语音识别引擎，理论上比较适合中文
 
-[^2]:Julius4是日本人开发的一个语音识别引擎，理论上比较适合中文
-
-最后选择的语音识别引擎是：Sphinx[^3]
-
-[^3]:Sphinx的开发社区强大，文章众多，而且看维基百科，居然是[李开复](http://zh.wikipedia.org/wiki/%E6%9D%8E%E5%BC%80%E5%A4%8D)写的第一个版本。
+最后选择的语音识别引擎是：Sphinx。Sphinx的开发社区强大，文章众多，而且看维基百科，居然是[李开复](http://zh.wikipedia.org/wiki/%E6%9D%8E%E5%BC%80%E5%A4%8D)写的第一个版本。
 
 
 ##	在树莓派上实现语音识别
