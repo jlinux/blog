@@ -5,21 +5,66 @@ description:
 categories:
 - 2013
 - 智能
+- 技术储备
+- go
 tags:
 - raspberry Pi
 - 天气
 - 自动获取
+- go
 ---
 
 #	从中国天气网获取天气信息
 
-`TODO：待完成代码，准备初试GO` 
 
 从中国天气网自动获取天气：
 
 杭州地区的获取[URL](http://m.weather.com.cn/data/101210101.html)。
 
 >PS：从JSON的格式上，这个开发团队需要优化对数据结构的设计。
+
+具体Go代码如下：
+
+	package main
+	
+	import (
+	    "fmt"
+	    "os"
+	    "net/http"
+	    "io/ioutil"
+	    "simplejson" //从这里得到代码[simplejson](https://github.com/bitly/go-simplejson)
+	)
+	
+	
+	func main() {
+		//从天气网获取杭州地区的信息
+	    str := file_get_content("http://m.weather.com.cn/data/101210101.html")
+	    js,_ := simplejson.NewJson([]byte(str))
+
+		//拿到相关城市信息
+	    fmt.Print(js.Get("weatherinfo").Get("city"))
+	
+	    os.Exit(0);
+	}
+	
+	func file_get_content(url string) string {
+	    r, err := http.Get(url)      //Go语言中可以返回2个以上的返回值
+	    if err != nil {
+	        fmt.Print("%v", err)
+	    }
+	
+	    defer r.Body.Close()      //在方法结束的时候调用，defer这个关坚持非常不错
+	
+	    body, err := ioutil.ReadAll(r.Body)
+	
+	    return string(body)
+	}
+
+通过上面代码，基本就能获取杭州地区从今天开始7天内的温度信息
+
+
+
+
 
 记录一下已经获取并解析好的数据
 
@@ -110,3 +155,7 @@ tags:
       "index_ag":"易发"
 	}
 	}
+	
+	
+>参考过的文章：
+http://dh189.iteye.com/blog/679705
