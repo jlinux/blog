@@ -99,6 +99,8 @@ tags:
 
 >参考过的文章：
 >
+
+*	[pocketsphinx开发文档](http://cmusphinx.sourceforge.net/api/pocketsphinx/)
 *	[PocketSphinx语音识别系统语言模型的锻炼和声学模型的改进](http://www.myexception.cn/mobile/700769.html)
 *	[cmusphinx系列](http://www.cnblogs.com/yin52133/tag/cmusphinx/)
 *	[Sphinx武林秘籍(上)](http://www.cnblogs.com/huanghuang/archive/2011/07/14/2106579.html)
