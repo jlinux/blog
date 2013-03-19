@@ -14,4 +14,4 @@ pages:
   permalink: 'pretty'
   
 markdown:
-  toc_title: '<h1></h1>'
+  toc_title: '<h1>目录</h1>'
