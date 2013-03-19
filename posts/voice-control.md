@@ -12,6 +12,8 @@ tags:
 - 语音 识别
 ---
 
+{:toc}
+
 ###	为什么选择树莓派
 
 选择在树莓派上实现语音控制，主要是三个考虑：
@@ -100,13 +102,15 @@ tags:
 >参考过的文章：
 >
 
+*	[Speech Recognition using the Raspberry Pi](http://www.aonsquared.co.uk/raspi_voice_control) 国内很多文章从这里翻译，但是不注明出处，无耻
+*	[PocketSphinx语音识别系统的编程](http://jishu521.com/post/zouoxy09/7978108.html)
 *	[pocketsphinx开发文档](http://cmusphinx.sourceforge.net/api/pocketsphinx/)
 *	[PocketSphinx语音识别系统语言模型的锻炼和声学模型的改进](http://www.myexception.cn/mobile/700769.html)
 *	[cmusphinx系列](http://www.cnblogs.com/yin52133/tag/cmusphinx/)
 *	[Sphinx武林秘籍(上)](http://www.cnblogs.com/huanghuang/archive/2011/07/14/2106579.html)
 *	[语音识别](http://zh.wikipedia.org/wiki/%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB)
 *	[PocketSphinx语音识别系统语言模型的训练和声学模型的改进](http://www.kaifajie.cn/kaifa_qita/5933.html)
-*	[Raspberry Pi实作–语音识别控制Maplin USB机械手臂](http://www.it165.net/embed/html/201207/2076.html)
+*	[Raspberry Pi实作–语音识别控制Maplin USB机械手臂](http://www.it165.net/embed/html/201207/2076.html) 抄袭前面说到的文章
 *	[如何使用Julius搭建一个语音识别引擎？](http://blog.csdn.net/habout632/article/details/8632621)
 *	[基于Julius的机器人语音识别系统构建](http://www.21ic.com/app/control/201108/91819_2.htm)
 
