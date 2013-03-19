@@ -12,3 +12,6 @@ posts:
 
 pages:
   permalink: 'pretty'
+  
+markdown:
+  toc_title: '<h1></h1>'
