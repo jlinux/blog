@@ -1,5 +1,5 @@
 ---
-title: 什么是树莓派（raspberry pi）
+title: 树莓派（raspberry pi）与互联网程序员
 date: '2013-03-20'
 description:介绍什么是树莓派
 categories:
