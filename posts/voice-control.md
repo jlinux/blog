@@ -24,7 +24,7 @@ tags:
 
 如果没有这些考虑，有更轻松的解决方案: DFRobot Arduino Smart Home kit智能家居语音识别初级套件http://wiki.dfrobot.com.cn/index.php?title=Smart_Home_kit_for_Arduino(SKU:KIT0005)
 
-
+2013年3月20号：在一系列的受挫以后，准备切换到硬件语音识别方案：http://www.icroute.com/web_cn/LD3320_luckyidol.html
 
 ##	前期技术调研
 最开始是选择Julius4作为参考，最后没有成熟的中文文档可以参考，只好放弃。Julius4是日本人开发的一个语音识别引擎，理论上比较适合中文
