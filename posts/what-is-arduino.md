@@ -45,6 +45,11 @@ Arduino的[标准产品和扩展](http://arduino.cc/en/Main/Products)可以在Ar
 
 所有Arduino主板中，最能体现其多样性和多用途的我觉得是LilyPad，一种微型用于可穿戴设备的Arduino主板，这种主板，配套有微型LED组件，导电缝纫线、蜂鸣器、按钮、无线传输模块等等。这些模块，还可以水洗。LilyPad是服装设计、互动艺术和电子电路的跨界结晶。
 
+![LilyPad](http://img02.taobaocdn.com/bao/uploaded/i6/T1K18IXj4nXXaWxxo._082436.jpg_310x310.jpg)
+![LilyPad LED Micro](http://img01.taobaocdn.com/bao/uploaded/i1/T1gr0zXl0qXXXdMFA0_034135.jpg_310x310.jpg)
+![导电缝纫线](http://img03.taobaocdn.com/bao/uploaded/i7/T1LY8zXcRpXXarvqs2_043124.jpg_310x310.jpg)
+
+
 作为爱好者，或者有兴趣的朋友，想要入门，可以考虑购买一下的套件：
 
 初级入门购买Arduino的[入门套件](http://item.taobao.com/item.htm?id=13626470565)。
