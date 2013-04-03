@@ -27,4 +27,7 @@ tags:常用URL
 
 
 
-	
+
+###	乐趣
+
+*	[Miss Open Hardware](http://blog.missopenhardware.com/)
