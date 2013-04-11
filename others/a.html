@@ -1,0 +1,156 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>伏威的自我记录</title>
+  
+  <style type="text/css">
+    a{
+	padding-bottom: 6px; 
+	padding-right: 16px;
+	color: blue;   
+    }
+    a:HOVER{
+    	color: red;
+    }
+    div{
+    	border-bottom-style: dashed;
+    	border-bottom-color: #66666;
+    	border-bottom-width: 1px;
+    	padding-bottom: 5px;
+    }
+  </style>
+	<script type="text/javascript">
+	function load(){
+			var aids = document.getElementsByTagName("a");
+			for(i=0;i<aids.length;i++){
+				aids[i].target="_blank";
+				
+			}
+			
+		}
+	function search(num){
+		if(gtext.value.trim()==""){
+			return;
+		}
+		if(num==1){
+			myform.action="http://www.google.com.hk/search";
+			myform.gtext.name="as_q";
+		}else if(num==2){
+			myform.action="http://s.taobao.com/search";
+                        myform.gtext.name="q";
+		}else if(num==3){
+			myform.action="http://cn.bing.com/search";
+			myform.gtext.name="q";
+		}else{
+			myform.action="http://translate.google.cn/?um=1&ie=UTF-8&hl=zh-CN&sa=N&tab=wT";
+			myform.gtext.name="q";
+			
+		}
+		myform.submit();
+	}
+	</script>
+</head>
+<body onload="load();">
+<div align="center">
+<form method="get" id="myform" action="http://www.google.com.hk/search" target="_blank">
+搜索入口:
+<input size="60" alt="search" type="text" name="as_q" id="gtext">
+<input type="button" name="btn1" value="Google" onclick="search(1);">
+<input type="button" name="btn2" value="Bing" onclick="search(3);">
+<input type="button" name="btn3" value="淘宝" onclick="search(2);">
+<input type="button" name="btn3" value="翻译" onclick="search(4);">
+   <input type="button" value="清空" onclick="gtext.value='';">
+</form>
+</div>
+
+<div>
+<h2>公司网站</h2>
+<a href="http://speed.taobao.com:9999/speed/perf/page/shop.jsp?ticket=1c85a6d4-8787-4397-adf3-5345412c0fa0" target="_blank">前段性能监控平台</a>
+<a href="http://monitor.taobao.com/monitorportal/main/dacu/trade.htm" target="_blank">双11监控平台</a>
+<a href="https://baoxiao.alibabacorp.com/APPS/TES/Index.aspx" target="_blank">财务报销系统</a>
+<a href="https://www.aliway.com/" target="_blank">Aliway</a>
+<a href="https://alihr.alibaba.com:4430/" target="_blank">AliHR</a>
+<a href="http://tcif.taobao.com/" target="_blank">淘宝消费者信息库</a>
+<!--
+<a href='https://flow.cn.alibaba-inc.com/law/lawNew.nsf/0/533EEA307FA6B53748257A4E00203905?openDocument'>法务支持中心</a>
+-->
+<a href="http://www.bocionline.com/" target="_blank">中银国际</a>
+<a href="http://pesystem.taobao.org:9999/app/tradeplatform/" target="_blank">Taobao PE System</a>
+</div>
+<div>
+<h2>开发相关</h2>
+<a href="/Users/fuwei/programs/android-sdk-macosx/docs/develop/index.html" target="_blank">Android开发文档</a>
+<a href="http://developer.android.com/reference/android/view/View.html" target="_blank">在线Android文档</a>
+<a href="http://www.oschina.net/android">Android专区</a>
+<a href="http://grepcode.com/file/repository.grepcode.com/java/ext/com.google.android/android/4.1.1_r1/android/widget/SimpleAdapter.java?av=f" target="_blank">Android源代码
+</a>
+<a href="http://www.eoeandroid.com/" target="_blank">Eoe Android开发者社区</a>
+
+<a href="http://guides.rubyonrails.org/" target="_blank">Rails Guides</a>
+<a href="http://api.rubyonrails.org/">Rails API</a>
+<a href="http://www.ruby-doc.org/core/" target="_blank">Ruby core</a>
+<a href="http://www.ruby-doc.org/stdlib/" target="_blank">Ruby standard library</a>
+<a href="http://www.w3schools.com/css/default.asp" target="_blank">CSS在线文档</a>   
+<a href="http://jquery.org.cn/manual/">Jquery在线文档</a>
+</div>
+<div>
+<h2>自己的最爱</h2>
+<a href="http://www.taobao.com/" target="_blank">淘宝</a>
+<a href="http://www.etao.com/" target="_blank">etao</a>
+<a href="http://news.sina.com.cn/" target="_blank">新浪新闻</a>
+<a href="http://www.weibo.com/" target="_blank">新浪微博</a>
+<a href="http://sudasuta.com/" target="_blank">苏打苏塔</a>
+<a href="http://www.findesign.cn/" target="_blank">非设计</a>
+<a href="http://www.yeeyan.org/" target="_blank">译言网</a>
+<a href="http://www.36kr.com/" target="_blank">36氪</a>
+<a href="http://bbs.puertea8.com/" target="_blank">普洱茶吧</a>
+<a href="http://bbs.puercha.cc/" target="_blank">普洱茶论坛</a>
+<a href="http://www.chinacaipu.com/" target="_blank">菜谱网</a>
+<a href="http://tr.4px.com/">四海淘</a>
+</div>
+<div>
+    <h2>arduino</h2>
+    <a href="http://www.geek-workshop.com/" target="_blank">极客工房</a>
+    <a href="http://arduino.cc/" target="_blank">arduino Home</a>
+    <a href="http://www.shumeipai.net/forum.php">树莓Pi</a>
+    <a href="http://www.raspicn.com/">爱上树莓Pi</a>
+    <a href="http://bbs.5imx.com/">我爱模型</a>
+    <a href="http://www.mx3g.com/">模型论坛</a>
+</div>
+<div>
+<h2>相机相关</h2>
+<a href="http://www.fengniao.com/secforum/search.php?pid=30&tkey=&sortorder=&daysprune=&sortfield=posttime" target="_blank">蜂鸟-浙江-镜头</a>
+<a href="http://www.fengniao.com/secforum/search.php?tkey=nikon&sortfield=posttime" target="_blank">蜂鸟-Nikon-镜头</a>
+<a href="http://www.fengniao.com/secforum/search.php?tkey=%E7%A6%8F%E4%BC%A6%E8%BE%BE&sortfield=posttime" target="_blank">福伦达</a>
+<a href="http://www.fengniao.com/" target="_blank">蜂鸟</a>
+<a href="http://www.xitek.com/" target="_blank">摄影无忌</a>
+<a href="http://www.soupis.com/index.php" target="_blank">茶片坊</a>
+<a href="http://www.pcpop.com/" target="_blank">泡泡网</a>
+<a href="http://www.jpun.net/" target="_blank">胶片联盟</a>
+</div>
+<div>
+<h2>娱乐相关</h2>
+<a href="http://www.cmfu.com/" target="_blank">起点</a>
+<a href="http://www.sodu.org/" target="_blank">Sodu</a>
+<a href="http://tv.sohu.com/s2011/4402/s319214481/" target="_blank">The Big Bang</a>
+<a href="http://www.macx.cn/" target="_blank">MacX</a>
+<a href="http://bbs.maiyadi.com/" target="_blank">Mac麦芽地</a>
+<a href="http://www.iapplez.com/" target="_blank">iAppleZ.com</a>
+<a href="http://ifan.178.com/" target="_blank">178 ifan</a>
+</div>
+<div>
+<h2>竞争对手</h2>
+<a href="http://www.dangdang.com/" target="_blank">当当</a>
+<a href="http://www.360buy.com/" target="_blank">京东</a>
+<a href="http://www.1haodian.com/" target="_blank">1号店</a>
+<a href="http://www.amazon.cn/" target="_blank">中国亚马逊</a>
+<a href="http://www.amazon.com/" target="_blank">亚马逊</a>
+<a href="http://www.ebay.com/" target="_blank">eBay</a>
+</div>
+<div>
+<h2>学习相关</h2>
+<a href="http://www.w3schools.com/css/" target="_blank">CSS查询器</a>
+<a href="http://open.163.com/" target="_blank">网易公开课</a>
+</div>
+
+
+</body></html>
